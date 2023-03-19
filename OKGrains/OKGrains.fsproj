@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Grains.fs" />
+    <Compile Include="DataStream.fs" />
+    <Compile Include="KafkaProcessing.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.SystemTextJson" Version="1.1.23" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.1.0" />
+    <PackageReference Include="Orleans.Clustering.Redis" Version="7.0.0" />
+    <PackageReference Include="Orleans.Persistence.Redis" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FsOrleansKafka\FsOrleansKafka.fsproj" />
+  </ItemGroup>
+
+</Project>
