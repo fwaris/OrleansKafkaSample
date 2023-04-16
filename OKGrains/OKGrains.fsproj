@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="FSharp.SystemTextJson" Version="1.1.23" />
-    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.1.1" />
     <PackageReference Include="Orleans.Clustering.Redis" Version="7.0.0" />
     <PackageReference Include="Orleans.Persistence.Redis" Version="7.0.0" />
   </ItemGroup>

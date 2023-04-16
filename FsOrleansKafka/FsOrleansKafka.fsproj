@@ -12,12 +12,12 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+		<PackageReference Include="Confluent.Kafka" Version="2.1.0" />
 		<PackageReference Include="FSharp.Control.AsyncSeq" Version="3.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.1.0" />
-		<PackageReference Include="Microsoft.Orleans.Runtime" Version="7.1.0" />
-		<PackageReference Include="Microsoft.Orleans.Streaming" Version="7.1.0" />
+		<PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.1.1" />
+		<PackageReference Include="Microsoft.Orleans.Runtime" Version="7.1.1" />
+		<PackageReference Include="Microsoft.Orleans.Streaming" Version="7.1.1" />
 	</ItemGroup>
 	
 	<ItemGroup>
