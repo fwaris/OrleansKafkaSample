@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Authors>Faisal Waris</Authors>
+		<Description>A set of utilities that support Microsoft.ML usage from F#</Description>
+		<Copyright>Copyright © 2023</Copyright>
+		<PackageProjectUrl>https://github.com/fwaris/MLUtils</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/fwaris/MLUtils</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>0.10</Version>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<PlatformTarget>x64</PlatformTarget>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>		
+		<Compile Include="MLUtils.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.ML.AutoML" Version="0.20.1" />
+	</ItemGroup>
+
+</Project>
