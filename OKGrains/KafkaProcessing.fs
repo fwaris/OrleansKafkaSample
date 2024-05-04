@@ -60,7 +60,7 @@ module Mapping =
         The 'mapper' function below filters and converts the kafka data to orleans stream data.
         To reduce the burden on orleans streams, filter the data as early as possible.
         This can be done by returning None for kafka data items that should not be processed.
-        Also, typically Kafka data items may contain many more fields that may be actually needed by a usecase.
+        Also, typically Kafka data items may contain many more fields than what may be actually needed by a usecase.
         By only deserializing the required fields, the processing burden can be reduced. 
         This is easily done, if data is in Json format, by defining a type that contains
         only the required fields (i.e. ignoring the extra fields in the kafka record).
